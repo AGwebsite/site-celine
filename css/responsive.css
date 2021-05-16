@@ -1,0 +1,97 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	.top-header .navbar .navbar-collapse ul li a{
+		padding: 5px 15px;
+	}
+	.about-img{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.gallery-box ul li{
+		width: 33.33%;
+	}
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+	.navbar-brand{
+		margin-left: 15px;
+	}
+	.top-header .navbar .navbar-collapse ul li a{
+		padding: 5px 15px;
+	}
+	.lbox-details h1{
+		font-size: 38px;
+	}
+	.lbox-details h2{
+		font-size: 18px;
+	}
+	.lbox-details p strong{
+		font-size: 20px;
+	}
+	.lbox-details a.btn{
+		display: none;
+	}
+	.title-box h2{
+		font-size: 42px;
+	}
+	.about-main-info h2{
+		font-size: 24px;
+	}
+	.about-img{
+		margin-bottom: 30px;
+	}
+	.main-timeline-box .separline::before{
+		left: 15px !important;
+	}
+	.main-timeline-box .iconBackground{
+		left: 15px !important;
+	}
+	.main-timeline-box .timeline-text-content{
+		margin-left: 0px;
+	}
+	.main-timeline-box .reverse .timeline-text-content{
+		margin-right: 0px;
+	}
+	.main-timeline-box .time-line-date-content{
+		margin-right: 0px;
+	}
+	.main-timeline-box .time-line-date-content p{
+		float: left;
+	}
+	.main-timeline-box .timeline-element{
+		padding: 0px 15px;
+	}
+	.gallery-box ul li{
+		width: 50%;
+	}
+
+	#back2Top {
+		width: 30px;
+		line-height: 40px;
+		overflow: hidden;
+		z-index: 999;
+		display: none;
+		cursor: pointer;
+		-moz-transform: rotate(270deg);
+		-webkit-transform: rotate(270deg);
+		-o-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+		position: fixed;
+		bottom: 120px;
+		right: 10px;
+		background-color: white;
+		color: #dd666c;
+		text-align: center;
+		font-size: 30px;
+		text-decoration: none;
+	
+	}
+	#back2Top:hover {
+		background-color: ;
+		color: #000;
+	}
+}
