@@ -649,8 +649,6 @@ button:focus{
 }
 
 
-
-
 .gallery-box{
 	padding: 50px 0px;
 }
@@ -749,7 +747,7 @@ h2.formation-main-info {
 -------------------------------------------------------------------*/
 
 .contact-box{
-	padding: 50px 0px;
+	padding: 40px 0px;
 }
 .contact-block{}
 
